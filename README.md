@@ -16,7 +16,7 @@ Required Software:
 2. Choose **Typical (recommended)**, then click Next.
 3. Choose **Installer disc image file (iso)**: and browse to your Windows XP ISO file.
 4. Click **Next**, then enter your Windows XP product key and set a username.
-5. Name your VM (e.g., "Windows XP FoxPro") and choosse a storage location.
+5. Name your VM (e.g., "Windows XP FoxPro") and choose a storage location.
 6. Set the minimum disk size to 10-20 GB and select **Store virtual disk as a single file**.
 7. Customize your hardware:
    * Set at least **512 MB RAM** (1 GB recommended)
