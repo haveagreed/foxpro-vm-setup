@@ -71,7 +71,7 @@ Required Software:
 * Take a **snapshot** after installation and major changes.
 
 
-**Conclusion:** Using this guide, you may now have a fully functional and secure Windows XP virtual machine in VMWare Workstation Pro, fit for Visual FoxPro development. The setup mentioned above allows you to work with legacy software without the risk of affecting your host environment from the vulnerabilities of an outdated operating systen. 
+**Conclusion:** Using this guide, you may now have a fully functional and secure Windows XP virtual machine in VMWare Workstation Pro, fit for Visual FoxPro development. The setup mentioned above allows you to work with legacy software without the risk of affecting your host environment from the vulnerabilities of an outdated operating system. 
 
 PS: This documentation is subject to change. I'm currently working on improving my documentation skills, so I apologize in advance for any inconsistencies. Thank you!
 
