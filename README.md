@@ -13,16 +13,17 @@ Required Software:
 
 ### **Step 2: Setting Up a Virtual Machine**
 1. Open VMWare Workstation Pro and click **Create a New Virtual Machine**.
-2. Choose **Typical (recommended)**, then click Next.
-3. Choose **Installer disc image file (iso)**: and browse to your Windows XP ISO file.
-4. Click **Next**, then enter your Windows XP product key and set a username.
-5. Name your VM (e.g., "Windows XP FoxPro") and choose a storage location.
-6. Set the minimum disk size to 10-20 GB and select **Store virtual disk as a single file**.
-7. Customize your hardware:
+   
+3. Choose **Typical (recommended)**, then click Next.
+4. Choose **Installer disc image file (iso)**: and browse to your Windows XP ISO file.
+5. Click **Next**, then enter your Windows XP product key and set a username.
+6. Name your VM (e.g., "Windows XP FoxPro") and choose a storage location.
+7. Set the minimum disk size to 10-20 GB and select **Store virtual disk as a single file**.
+8. Customize your hardware:
    * Set at least **512 MB RAM** (1 GB recommended)
    * Go to **CD/DVD (IDE)** and confirm the XP ISO is mounted.
    * Go to **Hard Disk** and check if it uses **SATA**,            change it to IDE (prevents detection issues during            installation).
-8. Click **Finish** to create the VM.
+9. Click **Finish** to create the VM.
 
 ### **Step 3: Boot and Install Windows XP**
 
@@ -30,7 +31,7 @@ Required Software:
 2. The VM will boot from the ISO and start the Windows XP installation.
 3. If you encounter "Setup did not find any hard disk drives installed":
    * Power off the VM.
-   * Edit VM settings > **Hard Disk**  > Change type to IDE        if needed.
+   * Edit VM settings > **Hard Disk**  > Change type to IDE if needed.
 
 4. Complete the XP installaton by following the setup prompts.
 5. Enter the product key if not pre-filled, and finish installation.
@@ -71,7 +72,16 @@ Required Software:
 * Take a **snapshot** after installation and major changes.
 
 
-**Conclusion:** Using this guide, you may now have a fully functional and secure Windows XP virtual machine in VMWare Workstation Pro, fit for Visual FoxPro development. The setup mentioned above allows you to work with legacy software without the risk of affecting your host environment from the vulnerabilities of an outdated operating system. 
+**Conclusion:** Using this guide, you may now have a fully functional and secure Windows XP virtual machine in VMWare Workstation Pro, fit for Visual FoxPro development. The setup mentioned above allows you to work with legacy software without the risk of affecting your host environment from the vulnerabilities of an outdated operating system.
+
+These are the lists of tools that I used for setting FoxPro VM Setup:
+
+VMware Workstation Pro: (https://www.vmware.com/products/workstation-pro.html)<br/><br/>
+Windows XP Professional: (32-bit ISO) (https://archive.org/details/WinXPProSP3x86)<br/><br/>
+Visual FoxPro (Version 6.0 to 9.0): ( https://archive.org/details/vfp-9-iso) (Community archive or use your own licensed copy if available.)<br/><br/>
+Virtual CloneDrive: (https://www.elby.ch/en/products/vcd.html)<br/><br/>
+AnyToISO (Free Edition): (https://www.crystalidea.com/anytoiso)<br/><br/>
+GitHub: (https://github.com/)<br/>
 
 PS: This documentation is subject to change. I'm currently working on improving my documentation skills, so I apologize in advance for any inconsistencies. Thank you!
 
